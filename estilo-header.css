@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --bgcolor: #000000a3;
+  font-family: "Quicksand", sans-serif;  
+  letter-spacing: 1px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  background-color: var(--bgcolor);
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  align-self: center;
+  margin-left: 1.2rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  color: #e9f00d;
+  cursor: pointer;
+}
+
+.barra-header {
+  border: 1px solid #e9f00d;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.nav-bar {
+  margin: auto;
+}
+
+.nav-bar a {
+  color: #e9f00d;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500 ;
+}
+
+.nav-bar a:hover {
+  background-color: rgba(128, 128, 128, 0.171);
+  border-radius: 5px;
+}
+
+.menu-icon {
+  color: #013479;
+  cursor: pointer;
+  display: none;
+}
+
+.img-logo {
+  width: 5vw;
+}
+.logo h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  margin: 0 10px;
+  width: 100px;
+  height: 40px;
+  padding: 4px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;  
+
+}
+
+button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: #e9f00d;
+}
+
+.login-btn {
+  width: 80px;
+  margin-top: 10px;
+  color: white;
+  background-color: #3b3b39;
+  border: 1px solid #e9f00d;
+}
+
+footer {
+  background-color: #04baca;
+}
+
+
+@media screen and (max-width: 700px) {
+  .nav-bar {
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+  }
+
+  .nav-bar.responsive {
+    display: block;
+  }
+
+  .nav-bar a {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+    z-index: 1;
+  }
+
+  button {
+    padding: 0.4rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+}
+

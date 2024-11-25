@@ -1,0 +1,53 @@
+:root {
+    --bgcolor: white;
+    font-family: "Quicksand", sans-serif;  
+    overflow-x: hidden;
+    padding-top: 5px;
+  }
+
+ .container-cursos {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #000000a3;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+.sumario {
+  cursor: pointer;
+  text-align: left;
+  font-size:16px;
+  font-weight: 500;
+}
+
+.conteudo-leitura p{
+  text-align: left;
+  width: 95%;
+}
+
+.btn-quit {
+  text-decoration:none;
+  color: white;
+}
+
+.btn-quit:hover {
+  text-decoration:none;
+  color: red;
+}
+#titulo-texto h3 {
+  text-align: left;
+  color: #e9f00d;
+}
+
+#titulo-texto {
+  width: 100%;
+}
+
+#titulo-texto p{
+  text-align: justify;
+}
+#video {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
