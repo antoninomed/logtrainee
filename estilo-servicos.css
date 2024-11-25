@@ -2,17 +2,16 @@
 
 
 :root {
-    --bgcolor: #3b3b39;
+    --bgcolor: #084aa6;
     font-family: "Quicksand", sans-serif;  
     overflow: hidden;
   }
-
 
 .container-cursos {
     display: block;
     position: absolute;
     width: 100%;
-    background-color: #3b3b39;
+    background-color: #084aa6;
     color: white;
     text-align: center;
     height: 100%;
@@ -33,7 +32,7 @@
 }
 
 .curso {
-    background-color: #00000024;
+    background-color: #0b3064;
     text-align: left;
     padding-bottom: 2%;
     max-width: 17vw;
@@ -58,6 +57,7 @@
     align-items: center;
     padding-left: 6%;
     height: 5vh;
+    
 }
 
 .desc-curso i {
@@ -76,16 +76,17 @@
     font-family: "Quicksand", sans-serif;  
     width: 90%;
     margin-top: 10px;
-    color: white;
-    background-color:  #423f3f;
-    border: 1px solid #e9f00d;
+    color: #084aa6;
+    background-color:  white;
+    border: 1px solid white;
     margin-left: 1vw;
 }
 
 .btn-curso:hover{
     color: white;
     box-shadow: 0 0 20px rgba(203, 240, 37, 0.2);
-    background-color: #e9f00d;
+    background-color: #084aa6;
+    border: white solid 1px;
 }
 .container-esp {
     display: block;

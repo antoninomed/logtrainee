@@ -2,7 +2,7 @@
   width: 300px;
   color: white;
   background-color: #000000a3;
-  border: 0px solid #e9f00d;
+  border: 0px solid #084aa6;
   margin: 0;
 
 }
@@ -22,7 +22,7 @@
   left: 10%;
   position: relative;
   padding: 30px;
-  border: 1px solid #e9f00d;
+  border: 1px solid #084aa6;
   border-radius: 2px;
 }
 
@@ -43,19 +43,20 @@
   border-radius: 2px;
   padding: 25px 5px 0px 5px;
   overflow: auto;
-  color:#e9f00d;
+  color: white;
 
 
 
 }
 
 .desc:hover i{
-  color: #000000a3;
+  color: #084aa6;
 }
 
 .desc i{
   font-size: 50px;
-  color:#e9f00d ;
+  color:white ;
+  border-radius: 10px;
  
 
 }

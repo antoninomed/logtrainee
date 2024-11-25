@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root {
-  --bgcolor: #000000a3;
+  --bgcolor: white;
   font-family: "Quicksand", sans-serif;  
   letter-spacing: 1px;
 
@@ -19,18 +19,17 @@
   justify-content: space-between;
 }
 .logo {
-  color: white;
+  color: #084aa6;
   align-self: center;
   margin-left: 1.2rem;
   font-size: 2.5rem;
   display: flex;
   align-items: center;
-  color: #e9f00d;
   cursor: pointer;
 }
 
 .barra-header {
-  border: 1px solid #e9f00d;
+  border: 1px solid #013479;
 }
 
 header {
@@ -43,7 +42,7 @@ header {
 }
 
 .nav-bar a {
-  color: #e9f00d;
+  color: #084aa6;
   padding: 1rem;
   cursor: pointer;
   text-decoration: none;
@@ -88,7 +87,7 @@ button {
 button:hover {
   color: white;
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
-  background-color: #e9f00d;
+  background-color: #013479;
 }
 
 .login-btn {
@@ -96,7 +95,7 @@ button:hover {
   margin-top: 10px;
   color: white;
   background-color: #3b3b39;
-  border: 1px solid #e9f00d;
+  border: 1px solid white;
 }
 
 footer {

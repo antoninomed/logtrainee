@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Auditoria':
-            link_video.src = "https://www.youtube.com/embed/2lTKtbSVMgA?si=mPZTYqj4qwoJil6m&amp;start=84";
+            link_video.src = "https://drive.google.com/file/d/1Q_HRiqZcSQvVKk53hu5UDUPTRF8LTCBN/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             
         case 'Reposição':
-            link_video.src = "https://www.youtube.com/embed/nNKLtkZxq1o?si=GX5VScBAcEJ6hzX0";
+            link_video.src = "https://drive.google.com/file/d/1RlLXLFDJhRFM696K2vciIjMQnzc8ERtI/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
               break;
 
         case 'Separação':
-            link_video.src = "https://www.youtube.com/embed/Rd8pYpr0sF0?si=SMXBrq8Eaz7RVUAC";
+            link_video.src = "https://drive.google.com/file/d/10umU7gyegSSvKJJ_-x7O2X8aCmM9qzb7/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
