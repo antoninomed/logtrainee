@@ -2,8 +2,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     event.preventDefault(); // Evita o envio do formulário
 
     // Dados de login fictícios
-    const validUsername = 'collabhub';
-    const validPassword = '123';
+    const validUsername = 'logtrainee';
+    const validPassword = 'adm123';
 
     // Obtém os valores inseridos pelo usuário
     const username = document.getElementById('username').value;
