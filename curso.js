@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             
         case 'Reposição':
-            link_video.src = "https://drive.google.com/file/d/1RlLXLFDJhRFM696K2vciIjMQnzc8ERtI/preview";
+            link_video.src = "https://drive.google.com/file/d/1N9v5wd1ebYAs-w1Pgap0T0xd4dPszvUe/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
